@@ -3,7 +3,7 @@ export let dataDestinations = [
     city: "",
     description: "",
     image:
-      "https://api.kontenbase.com/upload/file/storage/63ef630bc6a794c6f530a3c9/andreas-dress-GhvpEtG5HMs-unsplash(1)-DGwBzKcR.jpg",
+      "https://ik.imagekit.io/travelscope/andreas-dress-GhvpEtG5HMs-unsplash_2_.jpg",
 
     name: "Gunung Fuji",
     price: 1200000,
@@ -15,7 +15,7 @@ export let dataDestinations = [
     city: "63f03c77258e70eb5584a986",
     description: "",
     image:
-      "https://api.kontenbase.com/upload/file/storage/63ef630bc6a794c6f530a3c9/aldrin-rachman-pradana-UEwMB7Z1pKQ-unsplash-smHcGyAk.jpg",
+      "https://ik.imagekit.io/travelscope/aldrin-rachman-pradana-UEwMB7Z1pKQ-unsplash_1_.jpg",
 
     name: "Gunung Bromo",
     price: 1000000,
@@ -27,7 +27,7 @@ export let dataDestinations = [
     city: "",
     description: "",
     image:
-      "https://api.kontenbase.com/upload/file/storage/63ef630bc6a794c6f530a3c9/aziz-homaily-il2k5eKncbY-unsplash-HBdeHmXp.jpg",
+      "https://ik.imagekit.io/travelscope/aziz-homaily-il2k5eKncbY-unsplash_1_.jpg",
 
     name: "Raja Ampat",
     price: 1100000,
@@ -39,7 +39,7 @@ export let dataDestinations = [
     city: "",
     description: "",
     image:
-      "https://api.kontenbase.com/upload/file/storage/63ef630bc6a794c6f530a3c9/rahadiansyah-CgEaZ68d60c-unsplash-QFLoBCdV.jpg",
+      "https://ik.imagekit.io/travelscope/rahadiansyah-CgEaZ68d60c-unsplash_1_.jpg",
 
     name: "Parangtritis",
     price: 500000,
@@ -50,7 +50,8 @@ export let dataDestinations = [
   {
     city: "",
     description: "",
-    image: "",
+    image:
+      "https://ik.imagekit.io/travelscope/iniizah-fwzau7ekafA-unsplash_1_.jpg",
     name: "Bangka Belitung",
     price: 900000,
     rating: 4,
