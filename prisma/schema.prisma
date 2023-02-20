@@ -10,12 +10,16 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model Contact {
+model Destination {
   id        String   @id @default(uuid())
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  name      String
-  email     String
-  contacted Boolean
+  name             String
+  city             String
+  description      String
+  shortDescription String
+  image            String
+  price            Int
+  rating           Int
 }

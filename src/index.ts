@@ -2,7 +2,7 @@ import express from "express";
 import { Request } from "express";
 import { PrismaClient } from "@prisma/client";
 import cors from "cors";
-import { dataContacts } from "./data/contacts";
+import { dataDestinations } from "./data/destinations";
 
 const prisma = new PrismaClient();
 
@@ -14,77 +14,73 @@ app.use(express.json());
 app.use(express.raw({ type: "application/vnd.custom-type" }));
 app.use(express.text({ type: "text/html" }));
 
-app.get("/contacts", async (req, res) => {
-  const contacts = await prisma.contact.findMany({
+app.get("/destinations", async (req, res) => {
+  const destinations = await prisma.destination.findMany({
     orderBy: { name: "asc" },
   });
 
-  res.json(contacts);
+  res.json(destinations);
 });
 
-app.get("/contacts/:contactId", async (req, res) => {
-  const id = req.params.contactId;
+app.get("/destinations/:destinationId", async (req, res) => {
+  const id = req.params.destinationId;
 
-  const contact = await prisma.contact.findUnique({
+  const destination = await prisma.destination.findUnique({
     where: { id },
   });
 
-  if (!contact) {
+  if (!destination) {
     return res.status(404).json({});
   }
 
-  return res.status(200).json(contact);
+  return res.status(200).json(destination);
 });
 
-app.post("/contacts/multiple", async (req, res) => {
-  const contact = await prisma.contact.createMany({
-    data: dataContacts,
+app.post("/destinations/multiple", async (req, res) => {
+  const destination = await prisma.destination.createMany({
+    data: dataDestinations,
     skipDuplicates: true,
   });
 
-  return res.json(contact);
+  return res.json(destination);
 });
 
-app.post("/contacts", async (req, res) => {
-  const contact = await prisma.contact.create({
-    data: {
-      contacted: true,
-      name: req.body.name ?? "No name",
-      email: req.body.email ?? "No email",
-    },
+app.post("/destinations", async (req, res) => {
+  const destination = await prisma.destination.create({
+    data: req.body,
   });
 
-  return res.json(contact);
+  return res.json(destination);
 });
 
-app.put("/contacts/:contactId", async (req, res) => {
-  const id = req.params.contactId;
-  const contact = await prisma.contact.update({
+app.put("/destinations/:destinationId", async (req, res) => {
+  const id = req.params.destinationId;
+  const destination = await prisma.destination.update({
     where: { id },
     data: req.body,
   });
 
-  return res.json(contact);
+  return res.json(destination);
 });
 
-app.delete("/contacts", async (req, res) => {
-  await prisma.contact.deleteMany();
+app.delete("/destinations", async (req, res) => {
+  await prisma.destination.deleteMany();
 
   return res.send({
     status: "ok",
-    message: "All contacts have been deleted",
+    message: "All destinations have been deleted",
   });
 });
 
-app.delete("/contacts/:id", async (req, res) => {
+app.delete("/destinations/:id", async (req, res) => {
   const id = req.params.id;
-  await prisma.contact.delete({
+  await prisma.destination.delete({
     where: { id },
   });
 
   return res.send({
     status: "ok",
-    message: `One contact by id ${id} has been deleted`,
+    message: `One destination by id ${id} has been deleted`,
   });
 });
 
@@ -94,8 +90,8 @@ app.get("/", async (req, res) => {
   <h1>REST API</h1>
   <h2>Available Routes</h2>
   <pre>
-    GET, POST /contacts
-    GET, PUT, DELETE /contacts/:id
+    GET, POST /destinations
+    GET, PUT, DELETE /destinations/:id
   </pre>
   `.trim()
   );
