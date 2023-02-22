@@ -8,8 +8,8 @@ export let dataDestinations = [
     rating: 5,
     city: "",
     location: "Denpasar, Bali",
-    longitude: -8.7079382,
-    latitude: 115.1774426,
+    latitude: -8.7079382,
+    longitude: 115.1774426,
   },
   {
     city: "",

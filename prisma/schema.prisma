@@ -26,6 +26,6 @@ model Destination {
 
   city      String // ex: Denpasar
   location  String? // ex: Kuta Beach, Denpasar, Bali
-  longitude Float? // ex: -8.7079382
-  latitude  Float? // ex: 115.1774426
+  longitude Float? // ex: 115.1774426
+  latitude  Float? // ex: -8.7079382
 }
