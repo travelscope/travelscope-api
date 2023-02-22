@@ -16,10 +16,16 @@ model Destination {
   updatedAt DateTime @updatedAt
 
   name             String
-  city             String
   description      String
   shortDescription String
-  image            String
-  price            Int
-  rating           Int
+
+  image String
+
+  price  Int
+  rating Int
+
+  city      String // ex: Denpasar
+  location  String? // ex: Kuta Beach, Denpasar, Bali
+  longitude Float? // ex: -8.7079382
+  latitude  Float? // ex: 115.1774426
 }

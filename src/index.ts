@@ -87,7 +87,7 @@ app.delete("/destinations/:id", async (req, res) => {
 app.get("/", async (req, res) => {
   res.send(
     `
-  <h1>REST API</h1>
+  <h1>TravelScope REST API</h1>
   <h2>Available Routes</h2>
   <pre>
     GET, POST /destinations

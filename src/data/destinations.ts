@@ -1,5 +1,17 @@
 export let dataDestinations = [
   {
+    name: "Kuta Beach",
+    description: "",
+    shortDescription: "",
+    image: "",
+    price: 0,
+    rating: 5,
+    city: "",
+    location: "Denpasar, Bali",
+    longitude: -8.7079382,
+    latitude: 115.1774426,
+  },
+  {
     city: "",
     description: "",
     image:
