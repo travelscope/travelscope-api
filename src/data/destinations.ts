@@ -1,12 +1,17 @@
 export let dataDestinations = [
   {
     name: "Kuta Beach",
-    description: "",
-    shortDescription: "",
+    description: `Kuta Beach is a beach located in the southern part of Bali, Indonesia. It is one of the most famous beaches in Bali and a popular tourist destination throughout Indonesia.
+
+Kuta Beach has soft white sand, large waves, and clear seawater, making it perfect for swimming and surfing. In addition, there are many cafes, restaurants, and shops selling various types of souvenirs and Balinese goods along the beach.
+
+Kuta Beach is very crowded with tourists, especially during the holiday season. However, on the other hand, the beach is also quite famous for its high density of visitors and the bustle that occurs around the beach. Therefore, if you want to visit Kuta Beach, it is best to prepare yourself well and make sure to follow beach regulations to stay safe and comfortable during your vacation at Kuta Beach.`,
+    shortDescription:
+      "Kuta Beach is a beach located in the southern part of Bali, Indonesia. It is one of the most famous beaches in Bali and a popular tourist destination throughout Indonesia.",
     image: "",
-    price: 0,
+    price: 700000,
     rating: 5,
-    city: "",
+    city: "Denpasar",
     location: "Denpasar, Bali",
     latitude: -8.7079382,
     longitude: 115.1774426,
