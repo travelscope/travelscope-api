@@ -37,12 +37,21 @@ app.get("/destinations/:destinationId", async (req, res) => {
 });
 
 app.post("/destinations/multiple", async (req, res) => {
-  const destination = await prisma.destination.createMany({
-    data: dataDestinations,
-    skipDuplicates: true,
-  });
+  try {
+    await prisma.destination.deleteMany();
 
-  return res.json(destination);
+    const destination = await prisma.destination.createMany({
+      data: dataDestinations,
+      skipDuplicates: true,
+    });
+
+    return res.json(destination);
+  } catch (error) {
+    console.error(error);
+    return res.json({
+      message: "Error when adding multiple destinations",
+    });
+  }
 });
 
 app.post("/destinations", async (req, res) => {
@@ -55,6 +64,7 @@ app.post("/destinations", async (req, res) => {
 
 app.put("/destinations/:destinationId", async (req, res) => {
   const id = req.params.destinationId;
+
   const destination = await prisma.destination.update({
     where: { id },
     data: req.body,
