@@ -1,4 +1,8 @@
-export let dataDestinations = [
+import { Destination } from "@prisma/client";
+
+type DataDestination = Omit<Destination, "id" | "createdAt" | "updatedAt">;
+
+export let dataDestinations: DataDestination[] = [
   {
     name: "Kuta Beach",
     description: `Kuta Beach is a beach located in the southern part of Bali, Indonesia. It is one of the most famous beaches in Bali and a popular tourist destination throughout Indonesia.
@@ -191,8 +195,8 @@ Overall, the Gili Islands are a great destination for those looking for a laid-b
     rating: 4,
     city: "Lombok",
     location: "Northwest Lombok",
-    latitute: -8.60995,
-    longitute: 116.10504,
+    latitude: -8.60995,
+    longitude: 116.10504,
   },
   {
     name: "Borobudur Temple",
