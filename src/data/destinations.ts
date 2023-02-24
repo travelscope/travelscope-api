@@ -114,7 +114,7 @@ Overall, Tanjung Tinggi Beach is a beautiful and unique destination that offers 
     city: "Belitung",
     location: "Belitung, Bangka Belitung",
     latitude: -2.55177,
-    longitude: -2.55177,
+    longitude: 107.714951,
   },
   {
     name: "Komodo National Park",
