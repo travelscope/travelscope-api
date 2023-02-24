@@ -12,7 +12,8 @@ Kuta Beach has soft white sand, large waves, and clear seawater, making it perfe
 Kuta Beach is very crowded with tourists, especially during the holiday season. However, on the other hand, the beach is also quite famous for its high density of visitors and the bustle that occurs around the beach. Therefore, if you want to visit Kuta Beach, it is best to prepare yourself well and make sure to follow beach regulations to stay safe and comfortable during your vacation at Kuta Beach.`,
     shortDescription:
       "Kuta Beach is a beach located in the southern part of Bali, Indonesia. It is one of the most famous beaches in Bali and a popular tourist destination throughout Indonesia.",
-    image: "",
+    image:
+      "https://ik.imagekit.io/travelscope/katerina-markush-fXu85a9PXsM-unsplash__1_.jpg",
     price: 2000000,
     rating: 5,
     city: "Denpasar",
@@ -36,7 +37,7 @@ Other popular destinations in Lombok include Tanjung Aan Beach, Narmada Park, an
     shortDescription:
       "Lombok is an island located in the West Nusa Tenggara province of Indonesia, just east of Bali. It is known for its beautiful beaches, stunning landscapes, and rich culture.",
     image:
-      "https://ik.imagekit.io/travelscope/andreas-dress-GhvpEtG5HMs-unsplash_2_.jpg",
+      "https://ik.imagekit.io/travelscope/kilian-karger-1lleW-UW1So-unsplash__1_.jpg",
 
     price: 1200000,
     rating: 5,
@@ -55,7 +56,7 @@ Overall, Mount Bromo is a must-visit destination for nature lovers and adventure
     shortDescription:
       "Mount Bromo, also known as Gunung Bromo, is an active volcano located in East Java, Indonesia. It is part of the Bromo Tengger Semeru National Park and is one of the most popular tourist destinations in Indonesia.",
     image:
-      "https://ik.imagekit.io/travelscope/aldrin-rachman-pradana-UEwMB7Z1pKQ-unsplash_1_.jpg",
+      "https://ik.imagekit.io/travelscope/levi-ari-pronk-u9ahlW6JHOI-unsplash__1_.jpg",
 
     price: 1000000,
     rating: 4,
@@ -100,7 +101,7 @@ Parangtritis can be easily reached by car or motorbike from Yogyakarta, which is
     shortDescription:
       "Parangtritis is a famous beach located on the southern coast of Yogyakarta in Indonesia. It is known for its stunning natural beauty, cultural significance, and spiritual atmosphere.",
     image:
-      "https://ik.imagekit.io/travelscope/rahadiansyah-CgEaZ68d60c-unsplash_1_.jpg",
+      "https://ik.imagekit.io/travelscope/rahadiansyah-HG541IrX9a4-unsplash__1_.jpg",
 
     price: 500000,
     rating: 5,
@@ -125,7 +126,7 @@ Overall, Tanjung Tinggi Beach is a beautiful and unique destination that offers 
     shortDescription:
       "Tanjung Tinggi Beach is a beautiful beach located on the island of Belitung in the Bangka Belitung province of Indonesia. It is one of the most popular tourist destinations in the area, known for its stunning natural beauty and unique rock formations.",
     image:
-      "https://ik.imagekit.io/travelscope/iniizah-fwzau7ekafA-unsplash_1_.jpg",
+      "https://ik.imagekit.io/travelscope/dwi-damarpilau-PXeIODx6AfQ-unsplash__1_.jpg",
     price: 900000,
     rating: 4,
     city: "Belitung",
@@ -142,7 +143,8 @@ In addition to the Komodo dragons, the park's terrestrial fauna includes Timor d
 Visitors to the park can explore the islands and their natural beauty through various activities, such as hiking, diving, snorkeling, and wildlife watching. Some of the popular sites to visit include Komodo Island's Banugulung, which is the park's headquarters, Rinca Island's Loh Buaya, which is a great place to spot Komodo dragons, and Padar Island's famous viewpoint, which offers breathtaking panoramic views of the surrounding islands and sea.`,
     shortDescription:
       "Komodo National Park is a UNESCO World Heritage Site located in the eastern part of Indonesia, between the islands of Sumbawa and Flores. The park is home to the famous Komodo dragons, the world's largest living lizard, as well as a diverse range of marine life, including dolphins, whales, and sea turtles. The park covers a total area of 1,817 square kilometers and comprises three major islands: Komodo, Rinca, and Padar, as well as many smaller islands.",
-    image: "",
+    image:
+      "https://ik.imagekit.io/travelscope/altraz-8xxwWKyDs5E-unsplash__1_.jpg",
     price: 3500000,
     rating: 4,
     city: "Lesser Sunda Island",
@@ -161,7 +163,8 @@ In addition to its proximity to Komodo National Park, Labuan Bajo also has sever
 Visitors to Labuan Bajo can also engage in various activities, such as snorkeling, diving, island hopping, and trekking. There are many tour operators in the town that offer a range of tour packages, including day trips and multi-day excursions to Komodo National Park and its surrounding islands.`,
     shortDescription:
       "Labuan Bajo is a small town located on the western tip of the island of Flores in Indonesia, and it serves as the gateway to Komodo National Park. It is a popular destination for tourists who want to explore the park and its surrounding islands.",
-    image: "",
+    image:
+      "https://ik.imagekit.io/travelscope/fifani-cahyadi-eijoSN8sahA-unsplash__1_.jpg",
     price: 5500000,
     rating: 4,
     city: "Flores",
@@ -188,7 +191,8 @@ Yoga and wellness: Many yoga studios and wellness centers offer classes and retr
 Overall, the Gili Islands are a great destination for those looking for a laid-back, tropical island getaway with plenty of activities to enjoy.`,
     shortDescription:
       "The Gili Islands are a group of three small islands located off the coast of Lombok, Indonesia. The islands are known for their beautiful beaches, clear waters, and laid-back atmosphere.",
-    image: "",
+    image:
+      "https://ik.imagekit.io/travelscope/andrea-huls-pareja-ADgssHQ6ceI-unsplash__1_.jpg",
     price: 2000000,
     rating: 4,
     city: "Lombok",
@@ -215,7 +219,8 @@ Local village visit: You can also visit the nearby villages and see the local wa
 Overall, a visit to Borobudur Temple is a must-do for anyone visiting Central Java. It's an awe-inspiring cultural and historical experience that offers a unique glimpse into the rich history and culture of Indonesia.`,
     shortDescription:
       "Borobudur Temple is a UNESCO World Heritage site located in Central Java, Indonesia. It is a stunning ancient Buddhist temple that dates back to the 9th century and is considered one of the most significant Buddhist monuments in the world.",
-    image: "",
+    image:
+      "https://ik.imagekit.io/travelscope/mario-la-pergola-WTGV6qBOzro-unsplash__1_.jpg",
     price: 1000000,
     rating: 4,
     city: "Magelang",
