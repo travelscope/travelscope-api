@@ -176,7 +176,7 @@ Cycling around the island: One of the best ways to explore the islands is by ren
   },
   {
     name: "Borobudur Temple",
-    description: `Borobudur Temple is a UNESCO World Heritage site located in Central Java, Indonesia. It is a stunning ancient Buddhist temple that dates back to the 9th century and is considered one of the most significant Buddhist monuments in the world. Here are some things to know and do when visiting Borobudur Temple:
+    description: `Borobudur Temple is a UNESCO World Heritage site located in Central Java, Indonesia. It is a stunning ancient Buddhist temple that dates back to the 9th century and is considered one of the most significant Buddhist monuments in the world.
 
 History and architecture: Borobudur Temple is a masterpiece of Buddhist architecture and was built in the 9th century during the reign of the Sailendra Dynasty. The temple consists of nine stacked platforms, six square and three circular, topped by a central dome.`,
     shortDescription:
