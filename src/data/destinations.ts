@@ -149,8 +149,8 @@ Visitors to the park can explore the islands and their natural beauty through va
     rating: 4,
     city: "Lesser Sunda Island",
     location: "East Nusa Tenggara",
-    latitude: -8.5653,
-    longitude: 119.70023,
+    latitude: -8.527716,
+    longitude: 119.4833198,
   },
   {
     name: "Labuan Bajo",
@@ -182,13 +182,7 @@ Relaxing on the beach: The islands have beautiful white sand beaches where you c
 
 Island hopping: You can explore the three islands, Gili Trawangan, Gili Meno, and Gili Air, by hopping on a boat or walking around the islands. Each island has its unique vibe and attractions.
 
-Cycling around the island: One of the best ways to explore the islands is by renting a bicycle and cycling around. It's a great way to get some exercise while enjoying the stunning scenery.
-
-Sunset watching: The Gili Islands are known for their beautiful sunsets, and you can enjoy them from the beach or a rooftop bar while sipping on a cocktail.
-
-Yoga and wellness: Many yoga studios and wellness centers offer classes and retreats on the islands, making it an excellent destination for those looking to relax and rejuvenate.
-
-Overall, the Gili Islands are a great destination for those looking for a laid-back, tropical island getaway with plenty of activities to enjoy.`,
+Cycling around the island: One of the best ways to explore the islands is by renting a bicycle and cycling around.`,
     shortDescription:
       "The Gili Islands are a group of three small islands located off the coast of Lombok, Indonesia. The islands are known for their beautiful beaches, clear waters, and laid-back atmosphere.",
     image:
