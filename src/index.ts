@@ -16,7 +16,27 @@ app.use(express.text({ type: "text/html" }));
 
 app.get("/destinations", async (req, res) => {
   const destinations = await prisma.destination.findMany({
-    orderBy: { name: "asc" },
+    orderBy: { name: "desc" },
+  });
+
+  res.json(destinations);
+});
+
+app.get("/destinations/search", async (req, res) => {
+  const q = String(req.query.q);
+
+  const destinations = await prisma.destination.findMany({
+    orderBy: { name: "desc" },
+    where: {
+      // https://prisma.io/docs/concepts/components/prisma-client/filtering-and-sorting
+      OR: [
+        { name: { contains: q, mode: "insensitive" } },
+        { description: { contains: q, mode: "insensitive" } },
+        { shortDescription: { contains: q, mode: "insensitive" } },
+        { city: { contains: q, mode: "insensitive" } },
+        { location: { contains: q, mode: "insensitive" } },
+      ],
+    },
   });
 
   res.json(destinations);
